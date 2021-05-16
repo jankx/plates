@@ -1,5 +1,5 @@
 {
-    "name": "league/plates",
+    "name": "jankx/plates",
     "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
     "keywords": [
         "league",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Plates\\": "src"
+            "Jankx\\Plates\\": "src"
         }
     },
     "extra": {
