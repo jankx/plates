@@ -32,7 +32,6 @@
     },
     "autoload": {
         "psr-4": {
-            "Jankx\\Plates\\": "src",
             "League\\Plates\\": "src"
         }
     },
