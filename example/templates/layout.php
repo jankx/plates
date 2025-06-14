@@ -1,3 +1,8 @@
+<?php 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+ ?>
 <html>
 <head>
     <title><?=$this->e($title)?> | <?=$this->e($company)?></title>

@@ -2,6 +2,10 @@
 
 namespace League\Plates\Template;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 final class Theme
 {
     private $dir;

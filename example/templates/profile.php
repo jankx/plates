@@ -1,3 +1,8 @@
+<?php 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+ ?>
 <?php $this->layout('layout', ['title' => 'User Profile']) ?>
 
 <h1>User Profile</h1>

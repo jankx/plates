@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace League\Plates\Tests\Template;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use League\Plates\Template\Directory;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;

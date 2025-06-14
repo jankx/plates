@@ -2,6 +2,10 @@
 
 namespace League\Plates\Extension;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use League\Plates\Engine;
 
 /**

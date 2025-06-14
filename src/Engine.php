@@ -2,6 +2,10 @@
 
 namespace League\Plates;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use League\Plates\Extension\ExtensionInterface;
 use League\Plates\Template\Data;
 use League\Plates\Template\Directory;

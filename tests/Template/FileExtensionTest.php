@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace League\Plates\Tests\Template;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use League\Plates\Template\FileExtension;
 use PHPUnit\Framework\TestCase;
 

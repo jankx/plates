@@ -2,6 +2,10 @@
 
 namespace League\Plates\Template;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use Exception;
 use League\Plates\Engine;
 use League\Plates\Exception\TemplateNotFound;

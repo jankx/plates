@@ -2,6 +2,10 @@
 
 namespace League\Plates\Template;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use League\Plates\Extension\ExtensionInterface;
 use LogicException;
 

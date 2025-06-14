@@ -2,6 +2,10 @@
 
 namespace League\Plates\Tests;
 
+if (!defined('ABSPATH')) {
+    exit('Cheatin huh?');
+}
+
 use League\Plates\Engine;
 use org\bovigo\vfs\vfsStream;
 
