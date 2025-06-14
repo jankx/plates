@@ -3,7 +3,7 @@
 namespace League\Plates\Template\ResolveTemplatePath;
 
 if (!defined('ABSPATH')) {
-    exit('Cheatin huh?');
+    exit('Cheating huh?');
 }
 
 use League\Plates\Exception\TemplateNotFound;

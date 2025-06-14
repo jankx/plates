@@ -3,7 +3,7 @@
 namespace League\Plates\Exception;
 
 if (!defined('ABSPATH')) {
-    exit('Cheatin huh?');
+    exit('Cheating huh?');
 }
 
 final class TemplateNotFound extends \LogicException

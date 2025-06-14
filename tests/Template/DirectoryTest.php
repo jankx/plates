@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace League\Plates\Tests\Template;
 
 if (!defined('ABSPATH')) {
-    exit('Cheatin huh?');
+    exit('Cheating huh?');
 }
 
 use League\Plates\Template\Directory;

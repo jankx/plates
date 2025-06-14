@@ -3,7 +3,7 @@
 namespace League\Plates\Extension;
 
 if (!defined('ABSPATH')) {
-    exit('Cheatin huh?');
+    exit('Cheating huh?');
 }
 
 use League\Plates\Engine;
